@@ -1,0 +1,24 @@
+.CoolSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CoolSearch > * {
+  margin: 10px;
+}
+
+.CoolSearch input {
+  border-radius: 3px;
+  border: 1px solid black;
+  padding: 10px 12px;
+}
+
+.CoolSearch input:hover, .CoolSearch input:focus {
+  border: 1px solid #61DAFB;
+}
+
+.CoolSearch input:focus  {
+  outline: -webkit-focus-ring-color auto 0px;
+  /* border: 1px solid yellow; */
+}
